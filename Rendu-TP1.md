@@ -45,12 +45,51 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
 
 ### Récupérer **la liste des DNS utilisés par la machine**
 
-
+    [root@localhost ~]# dig
+    
+    ; <<>> DiG 9.11.4-P2-RedHat-9.11.4-17.P2.el8_0.1 <<>>
+    ;; global options: +cmd
+    ;; Got answer:
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41014
+    ;; flags: qr rd ra; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 6
+    
+    ;; OPT PSEUDOSECTION:
+    ; EDNS: version: 0, flags:; udp: 4000
+    ;; QUESTION SECTION:
+    ;.                              IN      NS
+    
+    ;; ANSWER SECTION:
+    .                       492409  IN      NS      g.root-servers.net.
+    .                       492409  IN      NS      h.root-servers.net.
+    .                       492409  IN      NS      i.root-servers.net.
+    .                       492409  IN      NS      j.root-servers.net.
+    .                       492409  IN      NS      k.root-servers.net.
+    .                       492409  IN      NS      l.root-servers.net.
+    .                       492409  IN      NS      m.root-servers.net.
+    .                       492409  IN      NS      a.root-servers.net.
+    .                       492409  IN      NS      b.root-servers.net.
+    .                       492409  IN      NS      c.root-servers.net.
+    .                       492409  IN      NS      d.root-servers.net.
+    .                       492409  IN      NS      e.root-servers.net.
+    .                       492409  IN      NS      f.root-servers.net.
+    
+    ;; ADDITIONAL SECTION:
+    m.root-servers.net.     596276  IN      A       202.12.27.33
+    m.root-servers.net.     598207  IN      AAAA    2001:dc3::35
+    a.root-servers.net.     335381  IN      A       198.41.0.4
+    a.root-servers.net.     349633  IN      AAAA    2001:503:ba3e::2:30
+    b.root-servers.net.     568897  IN      A       199.9.14.201
+    
+    ;; Query time: 7 msec
+    ;; SERVER: 89.2.0.1#53(89.2.0.1)
+    ;; WHEN: Thu Sep 26 05:46:34 EDT 2019
+    ;; MSG SIZE  rcvd: 343
 
 ## II. Edit configuration
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjExMjYzMSwtMTU1NDg4NTU0LDgxMz
-A0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4ODIsMTA4MTA2Mjc0
-MywxMDYwNzAyMzc1LDE4OTU0MzEyMjRdfQ==
+eyJoaXN0b3J5IjpbLTg0NjU3NjgxMCwxMzkyMTEyNjMxLC0xNT
+U0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4
+MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQzMTIyNF19
 -->
