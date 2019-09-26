@@ -27,11 +27,12 @@ Non les cartes réseaux n'ont pas récupéré une IP en DHCP
     192.168.0.18 dev ens18 lladdr 68:ec:c5:e3:27:40 STALE
     192.168.0.1 dev ens18 lladdr d0:84:b0:f5:96:4c STALE
 
-
+cette route est celle de la carte ens18, elle est utilisée pour une connexion externe, la passerelle de cette route est à l'IP XXX et cette IP est portée par XXX
 
 ## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTg4NzEyMywtMzM0Nzk5ODgyLDEwOD
-EwNjI3NDMsMTA2MDcwMjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbODEzMDQwMTM1LDEzMzk4ODcxMjMsLTMzND
+c5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQzMTIy
+NF19
 -->
