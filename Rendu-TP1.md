@@ -41,12 +41,16 @@ La troisième route est celle de la carte "ens18", elle est utilisé pour une co
     tcp  LISTEN 0      128                 0.0.0.0:22          0.0.0.0:*
     tcp  LISTEN 0      128                    [::]:22             [::]:*
 
+On voit le service SSH qui est activé et qui écoute sur le port 22
+
+### Récupérer **la liste des DNS utilisés par la machine**
+
 
 
 ## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMTMzOT
-g4NzEyMywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcwMjM3
-NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbMTM5MjExMjYzMSwtMTU1NDg4NTU0LDgxMz
+A0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4ODIsMTA4MTA2Mjc0
+MywxMDYwNzAyMzc1LDE4OTU0MzEyMjRdfQ==
 -->
