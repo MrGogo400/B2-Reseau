@@ -2,7 +2,7 @@
 
 ## 1. Gather Informations
 
-Récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adresse MAC
+### Récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adresse MAC
 
     1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -17,9 +17,11 @@ Récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adre
         inet6 fe80::efea:9eca:a3c:235b/64 scope link noprefixroute
            valid_lft forever preferred_lft forever
 
+### Déterminer si les cartes réseaux ont récupéré une **IP en DHCP** ou non si oui, affichez le bail DHCP utilisé par la machine
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTQzMTIyNF19
+eyJoaXN0b3J5IjpbMTA2MDcwMjM3NSwxODk1NDMxMjI0XX0=
 -->
