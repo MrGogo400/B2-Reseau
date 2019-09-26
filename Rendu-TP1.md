@@ -23,11 +23,15 @@ Non les cartes réseaux n'ont pas récupéré une IP en DHCP
 
 ### Afficher la **table de routage** de la machine et sa **table ARP**
 
+    192.168.0.39 dev ens18 lladdr 12:86:6f:c3:ff:0a REACHABLE
+    192.168.0.18 dev ens18 lladdr 68:ec:c5:e3:27:40 STALE
+    192.168.0.1 dev ens18 lladdr d0:84:b0:f5:96:4c STALE
+
 
 
 ## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNj
-A3MDIzNzUsMTg5NTQzMTIyNF19
+eyJoaXN0b3J5IjpbMTMzOTg4NzEyMywtMzM0Nzk5ODgyLDEwOD
+EwNjI3NDMsMTA2MDcwMjM3NSwxODk1NDMxMjI0XX0=
 -->
