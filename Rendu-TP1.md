@@ -2,7 +2,7 @@
 
 ## 1. Gather Informations
 
-récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adresse MAC
+Récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adresse MAC
 
     1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
@@ -18,6 +18,8 @@ récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adre
            valid_lft forever preferred_lft forever
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDkxNTgwXX0=
+eyJoaXN0b3J5IjpbMTg5NTQzMTIyNF19
 -->
