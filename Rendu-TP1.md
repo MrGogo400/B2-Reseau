@@ -127,13 +127,13 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
       rich rules:
 
 L'interface filtré est la "ens18"
-Les ports filtrés sont : 9090,
+Les ports filtrés sont : 9090, 546, 22
 
 ## II. Edit configuration
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg5NTIzODAsLTkxMzQzNTExMSwxMz
+eyJoaXN0b3J5IjpbLTE0NTYxMjQ5MTMsLTkxMzQzNTExMSwxMz
 kyMTEyNjMxLC0xNTU0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcx
 MjMsLTMzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMT
 g5NTQzMTIyNF19
