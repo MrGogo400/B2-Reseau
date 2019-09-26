@@ -109,12 +109,31 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
     ;; WHEN: Thu Sep 26 05:47:31 EDT 2019
     ;; MSG SIZE  rcvd: 94
 
+### Afficher **l'état actuel du firewall**
+
+    [root@localhost ~]# firewall-cmd --list-all
+    public (active)
+      target: default
+      icmp-block-inversion: no
+      interfaces: ens18
+      sources:
+      services: cockpit dhcpv6-client ssh
+      ports:
+      protocols:
+      masquerade: no
+      forward-ports:
+      source-ports:
+      icmp-blocks:
+      rich rules:
+
+
 
 ## II. Edit configuration
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzQzNTExMSwxMzkyMTEyNjMxLC0xNT
-U0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4
-MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQzMTIyNF19
+eyJoaXN0b3J5IjpbLTEzNDcxNjg2NDksLTkxMzQzNTExMSwxMz
+kyMTEyNjMxLC0xNTU0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcx
+MjMsLTMzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMT
+g5NTQzMTIyNF19
 -->
