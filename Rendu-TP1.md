@@ -17,12 +17,15 @@
         inet6 fe80::efea:9eca:a3c:235b/64 scope link noprefixroute
            valid_lft forever preferred_lft forever
 
-### Déterminer si les cartes réseaux ont récupéré une **IP en DHCP** ou non si oui, affichez le bail DHCP utilisé par la machine
+### Déterminer si les cartes réseaux ont récupéré une **IP en DHCP** 
+
+Non les cartes réseaux n'ont pas récupéré une IP en DHCP
+
 
 
 ## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTA2Mjc0MywxMDYwNzAyMzc1LDE4OT
-U0MzEyMjRdfQ==
+eyJoaXN0b3J5IjpbNjk5NTIwMzA3LDEwODEwNjI3NDMsMTA2MD
+cwMjM3NSwxODk1NDMxMjI0XX0=
 -->
