@@ -20,8 +20,9 @@
 ### Déterminer si les cartes réseaux ont récupéré une **IP en DHCP** ou non si oui, affichez le bail DHCP utilisé par la machine
 
 
-
+## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDcwMjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbMTA4MTA2Mjc0MywxMDYwNzAyMzc1LDE4OT
+U0MzEyMjRdfQ==
 -->
