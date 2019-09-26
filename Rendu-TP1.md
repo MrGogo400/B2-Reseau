@@ -33,10 +33,20 @@ La troisième route est celle de la carte "ens18", elle est utilisé pour une co
 
 ### Récupérer **la liste des ports en écoute** (_listening_) sur la machine (TCP et UDP)
 
+    [root@localhost ~]# ss -lntu
+    NetidState  Recv-Q Send-Q        Local Address:Port   Peer Address:Port
+    udp  UNCONN 0      0        192.168.0.26%ens18:68          0.0.0.0:*
+    udp  UNCONN 0      0                 127.0.0.1:323         0.0.0.0:*
+    udp  UNCONN 0      0                     [::1]:323            [::]:*
+    tcp  LISTEN 0      128                 0.0.0.0:22          0.0.0.0:*
+    tcp  LISTEN 0      128                    [::]:22             [::]:*
+
+
+
 ## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODE1MjM4Nyw4MTMwNDAxMzUsMTMzOT
+eyJoaXN0b3J5IjpbLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMTMzOT
 g4NzEyMywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcwMjM3
 NSwxODk1NDMxMjI0XX0=
 -->
