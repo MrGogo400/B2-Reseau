@@ -21,11 +21,13 @@
 
 Non les cartes réseaux n'ont pas récupéré une IP en DHCP
 
+### Afficher la **table de routage** de la machine et sa **table ARP**
+
 
 
 ## II. Edit configuration
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5NTIwMzA3LDEwODEwNjI3NDMsMTA2MD
-cwMjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbLTMzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNj
+A3MDIzNzUsMTg5NTQzMTIyNF19
 -->
