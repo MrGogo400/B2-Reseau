@@ -126,13 +126,14 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
       icmp-blocks:
       rich rules:
 
-
+L'interface filtré est la "ens18"
+Les ports filtrés sont : 9090,
 
 ## II. Edit configuration
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDcxNjg2NDksLTkxMzQzNTExMSwxMz
+eyJoaXN0b3J5IjpbLTE4NDg5NTIzODAsLTkxMzQzNTExMSwxMz
 kyMTEyNjMxLC0xNTU0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcx
 MjMsLTMzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMT
 g5NTQzMTIyNF19
