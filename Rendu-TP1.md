@@ -85,11 +85,36 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
     ;; WHEN: Thu Sep 26 05:46:34 EDT 2019
     ;; MSG SIZE  rcvd: 343
 
+### Requête DNS de www.re
+
+    [root@localhost ~]# dig www.reddit.com
+    
+    ; <<>> DiG 9.11.4-P2-RedHat-9.11.4-17.P2.el8_0.1 <<>> www.reddit.com
+    ;; global options: +cmd
+    ;; Got answer:
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5025
+    ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+    
+    ;; OPT PSEUDOSECTION:
+    ; EDNS: version: 0, flags:; udp: 4000
+    ;; QUESTION SECTION:
+    ;www.reddit.com.                        IN      A
+    
+    ;; ANSWER SECTION:
+    www.reddit.com.         90      IN      CNAME   reddit.map.fastly.net.
+    reddit.map.fastly.net.  26      IN      A       151.101.121.140
+    
+    ;; Query time: 8 msec
+    ;; SERVER: 89.2.0.1#53(89.2.0.1)
+    ;; WHEN: Thu Sep 26 05:47:31 EDT 2019
+    ;; MSG SIZE  rcvd: 94
+
+
 ## II. Edit configuration
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjU3NjgxMCwxMzkyMTEyNjMxLC0xNT
+eyJoaXN0b3J5IjpbMTA5NjQ4ODAyNywxMzkyMTEyNjMxLC0xNT
 U0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4
 MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQzMTIyNF19
 -->
