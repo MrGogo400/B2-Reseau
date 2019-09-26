@@ -85,7 +85,7 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
     ;; WHEN: Thu Sep 26 05:46:34 EDT 2019
     ;; MSG SIZE  rcvd: 343
 
-### Requête DNS de www.re
+### Requête DNS de www.reddit.com
 
     [root@localhost ~]# dig www.reddit.com
     
@@ -114,7 +114,7 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjQ4ODAyNywxMzkyMTEyNjMxLC0xNT
+eyJoaXN0b3J5IjpbLTkxMzQzNTExMSwxMzkyMTEyNjMxLC0xNT
 U0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4
 MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQzMTIyNF19
 -->
