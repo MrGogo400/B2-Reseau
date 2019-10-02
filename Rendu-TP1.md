@@ -204,8 +204,29 @@ Les ports filtrés sont : 9090, 546, 22
 ## Serveur SSH
 
 ### Modifier la configuration du système pour que le serveur SSH tourne sur le port 2222
+
+    [root@localhost ~]# nano /etc/ssh/sshd_config
+    
+    #       $OpenBSD: sshd_config,v 1.103 2018/04/09 20:41:22 tj Exp $
+    
+    # This is the sshd server system-wide configuration file.  See
+    # sshd_config(5) for more information.
+    
+    # This sshd was compiled with PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+    
+    # The strategy used for options in the default sshd_config shipped with
+    # OpenSSH is to specify options with their default value where
+    # possible, but leave them commented.  Uncommented options override the
+    # default value.
+    
+    # If you want to change the port on a SELinux system, you have to tell
+    # SELinux about this change.
+    # semanage port -a -t ssh_port_t -p tcp #PORTNUMBER
+    #
+    Port 2222
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzMzQ2NjYsODQzOTc0NDM5LDc3MT
+eyJoaXN0b3J5IjpbLTEzNzUyMjgzNzksODQzOTc0NDM5LDc3MT
 IxODM3Miw0MTI3MDIyOTYsLTIzNDgwNDcwNSwtMjA1Njc1NDE2
 MSwtMTQ1NjEyNDkxMywtOTEzNDM1MTExLDEzOTIxMTI2MzEsLT
 E1NTQ4ODU1NCw4MTMwNDAxMzUsMTMzOTg4NzEyMywtMzM0Nzk5
