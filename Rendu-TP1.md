@@ -227,8 +227,12 @@ Les ports filtrés sont : 9090, 546, 22
     
     [root@localhost ~]# systemctl restart sshd
 
+
+
+[root@localhost ~]# firewall-cmd --zone=public --permanent --remove-port=22/tcp
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTE0Mjg2MCw4NDM5NzQ0MzksNzcxMj
+eyJoaXN0b3J5IjpbLTM0NzIxNzYzMiw4NDM5NzQ0MzksNzcxMj
 E4MzcyLDQxMjcwMjI5NiwtMjM0ODA0NzA1LC0yMDU2NzU0MTYx
 LC0xNDU2MTI0OTEzLC05MTM0MzUxMTEsMTM5MjExMjYzMSwtMT
 U1NDg4NTU0LDgxMzA0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4
