@@ -232,12 +232,16 @@ Les ports filtrés sont : 9090, 546, 22
     [root@localhost ~]# firewall-cmd --zone=public --permanent --remove-port=22/tcp
     [root@localhost ~]# firewall-cmd --reload
 
-On rajoute 
+On ouvre le nouveau
+
+    [root@localhost ~]# firewall-cmd --zone=public --permanent --remove-port=2222/tcp 
+    [root@localhost ~]# firewall-cmd --reload
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDE2OTIsODQzOTc0NDM5LDc3MTIxOD
-M3Miw0MTI3MDIyOTYsLTIzNDgwNDcwNSwtMjA1Njc1NDE2MSwt
-MTQ1NjEyNDkxMywtOTEzNDM1MTExLDEzOTIxMTI2MzEsLTE1NT
-Q4ODU1NCw4MTMwNDAxMzUsMTMzOTg4NzEyMywtMzM0Nzk5ODgy
-LDEwODEwNjI3NDMsMTA2MDcwMjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbMTM4MjQ4NTAyOSw4NDM5NzQ0MzksNzcxMj
+E4MzcyLDQxMjcwMjI5NiwtMjM0ODA0NzA1LC0yMDU2NzU0MTYx
+LC0xNDU2MTI0OTEzLC05MTM0MzUxMTEsMTM5MjExMjYzMSwtMT
+U1NDg4NTU0LDgxMzA0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4
+ODIsMTA4MTA2Mjc0MywxMDYwNzAyMzc1LDE4OTU0MzEyMjRdfQ
+==
 -->
