@@ -160,7 +160,9 @@ Les ports filtrés sont : 9090, 546, 22
     NETMASK=255.255.255.0
 
 
-### Vérifier vos changements
+## Vérifier vos changements
+
+### Afficher les nouvelles cartes/IP
 
     [root@localhost ~]# ip a
     1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -190,19 +192,22 @@ Les ports filtrés sont : 9090, 546, 22
         inet6 fe80::60be:3f99:58fd:11bc/64 scope link noprefixroute
            valid_lft forever preferred_lft forever
 
-###vérifier les nouvelles tables ARP/de routage
+### Vérifier les nouvelles tables ARP/de routage
 
-[root@localhost ~]# ip route
-default via 10.0.2.2 dev enp0s3
-default via 10.0.2.2 dev enp0s3 proto dhcp metric 100
-10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
-192.168.17.0/24 dev enp0s9 proto kernel scope link src 192.168.17.55 metric 103
-192.168.18.0/24 dev enp0s10 proto kernel scope link src 192.168.18.55 metric 102
+    [root@localhost ~]# ip route
+    default via 10.0.2.2 dev enp0s3
+    default via 10.0.2.2 dev enp0s3 proto dhcp metric 100
+    10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
+    192.168.17.0/24 dev enp0s9 proto kernel scope link src 192.168.17.55 metric 103
+    192.168.18.0/24 dev enp0s10 proto kernel scope link src 192.168.18.55 metric 102
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1MzE1NjExLDg0Mzk3NDQzOSw3NzEyMT
-gzNzIsNDEyNzAyMjk2LC0yMzQ4MDQ3MDUsLTIwNTY3NTQxNjEs
-LTE0NTYxMjQ5MTMsLTkxMzQzNTExMSwxMzkyMTEyNjMxLC0xNT
-U0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4
-MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQzMTIyNF19
+eyJoaXN0b3J5IjpbMjAzNjQ2MDgyNCw4NDM5NzQ0MzksNzcxMj
+E4MzcyLDQxMjcwMjI5NiwtMjM0ODA0NzA1LC0yMDU2NzU0MTYx
+LC0xNDU2MTI0OTEzLC05MTM0MzUxMTEsMTM5MjExMjYzMSwtMT
+U1NDg4NTU0LDgxMzA0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4
+ODIsMTA4MTA2Mjc0MywxMDYwNzAyMzc1LDE4OTU0MzEyMjRdfQ
+==
 -->
