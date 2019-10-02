@@ -4,18 +4,32 @@
 
 ### Récupérer une **liste des cartes réseau** avec leur nom, leur IP et leur adresse MAC
 
+ 
+
+       [root@localhost ~]# ip a
     1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-    inet 127.0.0.1/8 scope host lo
-       valid_lft forever preferred_lft forever
-    inet6 ::1/128 scope host
-       valid_lft forever preferred_lft forever
-    2: ens18: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-        link/ether 5a:ba:02:0e:f0:a8 brd ff:ff:ff:ff:ff:ff
-        inet 192.168.0.26/24 brd 192.168.0.255 scope global dynamic noprefixroute ens18
-           valid_lft 55419sec preferred_lft 55419sec
-        inet6 fe80::efea:9eca:a3c:235b/64 scope link noprefixroute
+        link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+        inet 127.0.0.1/8 scope host lo
            valid_lft forever preferred_lft forever
+        inet6 ::1/128 scope host
+           valid_lft forever preferred_lft forever
+    2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+        link/ether 08:00:27:ca:39:a3 brd ff:ff:ff:ff:ff:ff
+        inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute enp0s3
+           valid_lft 84926sec preferred_lft 84926sec
+        inet6 fe80::87e0:26d6:e64b:c3d8/64 scope link noprefixroute
+           valid_lft forever preferred_lft forever
+    3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+        link/ether 08:00:27:4e:8b:06 brd ff:ff:ff:ff:ff:ff
+    4: enp0s9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+        link/ether 08:00:27:8d:ca:d8 brd ff:ff:ff:ff:ff:ff
+    5: enp0s10: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+        link/ether 08:00:27:94:88:2e brd ff:ff:ff:ff:ff:ff
+        inet 192.168.18.55/24 brd 192.168.18.255 scope global noprefixroute enp0s10
+           valid_lft forever preferred_lft forever
+        inet6 fe80::60be:3f99:58fd:11bc/64 scope link noprefixroute
+           valid_lft forever preferred_lft forever
+
 
 ### Déterminer si les cartes réseaux ont récupéré une **IP en DHCP** 
 
@@ -133,8 +147,8 @@ Les ports filtrés sont : 9090, 546, 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYxMjQ5MTMsLTkxMzQzNTExMSwxMz
-kyMTEyNjMxLC0xNTU0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcx
-MjMsLTMzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMT
-g5NTQzMTIyNF19
+eyJoaXN0b3J5IjpbLTIwNTY3NTQxNjEsLTE0NTYxMjQ5MTMsLT
+kxMzQzNTExMSwxMzkyMTEyNjMxLC0xNTU0ODg1NTQsODEzMDQw
+MTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4MiwxMDgxMDYyNzQzLD
+EwNjA3MDIzNzUsMTg5NTQzMTIyNF19
 -->
