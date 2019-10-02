@@ -237,11 +237,28 @@ On ouvre le nouveau
     [root@localhost ~]# firewall-cmd --zone=public --permanent --remove-port=2222/tcp 
     [root@localhost ~]# firewall-cmd --reload
 
+
+```
+[root@localhost ~]$ firewall-cmd --list-all
+public (active)
+target: default
+icmp-block-inversion: no
+interfaces: enp0s3 enp0s9 enp0s10
+sources:
+services: cockpit dhcpv6-client ssh
+ports: 2222/tcp
+protocols:
+masquerade: no
+forward-ports:
+source-ports:
+icmp-blocks:
+rich rules:
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjQ4NTAyOSw4NDM5NzQ0MzksNzcxMj
-E4MzcyLDQxMjcwMjI5NiwtMjM0ODA0NzA1LC0yMDU2NzU0MTYx
-LC0xNDU2MTI0OTEzLC05MTM0MzUxMTEsMTM5MjExMjYzMSwtMT
-U1NDg4NTU0LDgxMzA0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4
-ODIsMTA4MTA2Mjc0MywxMDYwNzAyMzc1LDE4OTU0MzEyMjRdfQ
-==
+eyJoaXN0b3J5IjpbMjg4NTI4OTgxLDEzODI0ODUwMjksODQzOT
+c0NDM5LDc3MTIxODM3Miw0MTI3MDIyOTYsLTIzNDgwNDcwNSwt
+MjA1Njc1NDE2MSwtMTQ1NjEyNDkxMywtOTEzNDM1MTExLDEzOT
+IxMTI2MzEsLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMTMzOTg4NzEy
+MywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcwMjM3NSwxOD
+k1NDMxMjI0XX0=
 -->
