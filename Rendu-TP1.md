@@ -108,12 +108,12 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
 
 ### Requête DNS de www.reddit.com
 
-    [root@localhost ~]# dig www.reddit.com
+       [root@localhost ~]# dig www.reddit.com
     
     ; <<>> DiG 9.11.4-P2-RedHat-9.11.4-17.P2.el8_0.1 <<>> www.reddit.com
     ;; global options: +cmd
     ;; Got answer:
-    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5025
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63694
     ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
     
     ;; OPT PSEUDOSECTION:
@@ -122,13 +122,14 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
     ;www.reddit.com.                        IN      A
     
     ;; ANSWER SECTION:
-    www.reddit.com.         90      IN      CNAME   reddit.map.fastly.net.
-    reddit.map.fastly.net.  26      IN      A       151.101.121.140
+    www.reddit.com.         189     IN      CNAME   reddit.map.fastly.net.
+    reddit.map.fastly.net.  30      IN      A       151.101.121.140
     
-    ;; Query time: 8 msec
+    ;; Query time: 10 msec
     ;; SERVER: 89.2.0.1#53(89.2.0.1)
-    ;; WHEN: Thu Sep 26 05:47:31 EDT 2019
+    ;; WHEN: Wed Oct 02 13:10:54 EDT 2019
     ;; MSG SIZE  rcvd: 94
+
 
 ### Afficher **l'état actuel du firewall**
 
@@ -155,9 +156,9 @@ Les ports filtrés sont : 9090, 546, 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTA0NDY5Niw0MTI3MDIyOTYsLTIzND
-gwNDcwNSwtMjA1Njc1NDE2MSwtMTQ1NjEyNDkxMywtOTEzNDM1
-MTExLDEzOTIxMTI2MzEsLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMT
-MzOTg4NzEyMywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcw
-MjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbNzcxMjE4MzcyLDQxMjcwMjI5NiwtMjM0OD
+A0NzA1LC0yMDU2NzU0MTYxLC0xNDU2MTI0OTEzLC05MTM0MzUx
+MTEsMTM5MjExMjYzMSwtMTU1NDg4NTU0LDgxMzA0MDEzNSwxMz
+M5ODg3MTIzLC0zMzQ3OTk4ODIsMTA4MTA2Mjc0MywxMDYwNzAy
+Mzc1LDE4OTU0MzEyMjRdfQ==
 -->
