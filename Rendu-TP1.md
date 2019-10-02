@@ -48,17 +48,18 @@ La carte enp0s3 (La nat) est en DHCP
     
 `10.0.2.2`, cette route est celle de la carte **NAT**, elle est utilisée pour une connexion **externe**, la passerelle de cette route est à l'IP 10.0.2.2 et cette IP est portée par 10.0.2.15.
 
-`192.168.2.0`, cette route est celle du **Host Only**, elle est utilisée pour une connexion **local**, la passerelle de cette route est à l'IP 192.168.18.55 et cette IP est portée par 192.168.2.3.
+`192.168.2.0`, cette route est celle du **Host Only**, elle est utilisée pour une connexion **local**, la passerelle de cette route est à l'IP 192.168.18.0 et cette IP est portée par 192.168.18.55.
 
 ### Récupérer **la liste des ports en écoute** (_listening_) sur la machine (TCP et UDP)
 
     [root@localhost ~]# ss -lntu
-    NetidState  Recv-Q Send-Q        Local Address:Port   Peer Address:Port
-    udp  UNCONN 0      0        192.168.0.26%ens18:68          0.0.0.0:*
-    udp  UNCONN 0      0                 127.0.0.1:323         0.0.0.0:*
-    udp  UNCONN 0      0                     [::1]:323            [::]:*
-    tcp  LISTEN 0      128                 0.0.0.0:22          0.0.0.0:*
-    tcp  LISTEN 0      128                    [::]:22             [::]:*
+    Netid       State         Recv-Q        Send-Q                    Local Address:Port                 Peer Address:Port
+    udp         UNCONN        0             0                             127.0.0.1:323                       0.0.0.0:*
+    udp         UNCONN        0             0                               0.0.0.0:68                        0.0.0.0:*
+    udp         UNCONN        0             0                      10.0.2.15%enp0s3:68                        0.0.0.0:*
+    udp         UNCONN        0             0                                 [::1]:323                          [::]:*
+    tcp         LISTEN        0             128                             0.0.0.0:22                        0.0.0.0:*
+    tcp         LISTEN        0             128                                [::]:22                           [::]:*
 
 On voit le service SSH qui est activé et qui écoute sur le port 22
 
@@ -153,9 +154,9 @@ Les ports filtrés sont : 9090, 546, 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDY2NDAzMSw0MTI3MDIyOTYsLTIzND
-gwNDcwNSwtMjA1Njc1NDE2MSwtMTQ1NjEyNDkxMywtOTEzNDM1
-MTExLDEzOTIxMTI2MzEsLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMT
-MzOTg4NzEyMywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcw
-MjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbNjM1OTAxMDk3LDQxMjcwMjI5NiwtMjM0OD
+A0NzA1LC0yMDU2NzU0MTYxLC0xNDU2MTI0OTEzLC05MTM0MzUx
+MTEsMTM5MjExMjYzMSwtMTU1NDg4NTU0LDgxMzA0MDEzNSwxMz
+M5ODg3MTIzLC0zMzQ3OTk4ODIsMTA4MTA2Mjc0MywxMDYwNzAy
+Mzc1LDE4OTU0MzEyMjRdfQ==
 -->
