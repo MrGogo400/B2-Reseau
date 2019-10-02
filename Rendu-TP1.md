@@ -65,13 +65,13 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
 
 ### Récupérer **la liste des DNS utilisés par la machine**
 
-    [root@localhost ~]# dig
+        [root@localhost ~]# dig
     
     ; <<>> DiG 9.11.4-P2-RedHat-9.11.4-17.P2.el8_0.1 <<>>
     ;; global options: +cmd
     ;; Got answer:
-    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41014
-    ;; flags: qr rd ra; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 6
+    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59860
+    ;; flags: qr rd ra; QUERY: 1, ANSWER: 13, AUTHORITY: 0, ADDITIONAL: 7
     
     ;; OPT PSEUDOSECTION:
     ; EDNS: version: 0, flags:; udp: 4000
@@ -79,31 +79,32 @@ On voit le service SSH qui est activé et qui écoute sur le port 22
     ;.                              IN      NS
     
     ;; ANSWER SECTION:
-    .                       492409  IN      NS      g.root-servers.net.
-    .                       492409  IN      NS      h.root-servers.net.
-    .                       492409  IN      NS      i.root-servers.net.
-    .                       492409  IN      NS      j.root-servers.net.
-    .                       492409  IN      NS      k.root-servers.net.
-    .                       492409  IN      NS      l.root-servers.net.
-    .                       492409  IN      NS      m.root-servers.net.
-    .                       492409  IN      NS      a.root-servers.net.
-    .                       492409  IN      NS      b.root-servers.net.
-    .                       492409  IN      NS      c.root-servers.net.
-    .                       492409  IN      NS      d.root-servers.net.
-    .                       492409  IN      NS      e.root-servers.net.
-    .                       492409  IN      NS      f.root-servers.net.
+    .                       433391  IN      NS      e.root-servers.net.
+    .                       433391  IN      NS      f.root-servers.net.
+    .                       433391  IN      NS      g.root-servers.net.
+    .                       433391  IN      NS      h.root-servers.net.
+    .                       433391  IN      NS      i.root-servers.net.
+    .                       433391  IN      NS      a.root-servers.net.
+    .                       433391  IN      NS      j.root-servers.net.
+    .                       433391  IN      NS      k.root-servers.net.
+    .                       433391  IN      NS      l.root-servers.net.
+    .                       433391  IN      NS      m.root-servers.net.
+    .                       433391  IN      NS      b.root-servers.net.
+    .                       433391  IN      NS      c.root-servers.net.
+    .                       433391  IN      NS      d.root-servers.net.
     
     ;; ADDITIONAL SECTION:
-    m.root-servers.net.     596276  IN      A       202.12.27.33
-    m.root-servers.net.     598207  IN      AAAA    2001:dc3::35
-    a.root-servers.net.     335381  IN      A       198.41.0.4
-    a.root-servers.net.     349633  IN      AAAA    2001:503:ba3e::2:30
-    b.root-servers.net.     568897  IN      A       199.9.14.201
+    a.root-servers.net.     357354  IN      A       198.41.0.4
+    a.root-servers.net.     371610  IN      AAAA    2001:503:ba3e::2:30
+    m.root-servers.net.     540063  IN      A       202.12.27.33
+    m.root-servers.net.     541866  IN      AAAA    2001:dc3::35
+    b.root-servers.net.     603380  IN      A       199.9.14.201
+    c.root-servers.net.     603970  IN      A       192.33.4.12
     
-    ;; Query time: 7 msec
+    ;; Query time: 9 msec
     ;; SERVER: 89.2.0.1#53(89.2.0.1)
-    ;; WHEN: Thu Sep 26 05:46:34 EDT 2019
-    ;; MSG SIZE  rcvd: 343
+    ;; WHEN: Wed Oct 02 13:10:22 EDT 2019
+    ;; MSG SIZE  rcvd: 359
 
 ### Requête DNS de www.reddit.com
 
@@ -154,9 +155,9 @@ Les ports filtrés sont : 9090, 546, 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1OTAxMDk3LDQxMjcwMjI5NiwtMjM0OD
-A0NzA1LC0yMDU2NzU0MTYxLC0xNDU2MTI0OTEzLC05MTM0MzUx
-MTEsMTM5MjExMjYzMSwtMTU1NDg4NTU0LDgxMzA0MDEzNSwxMz
-M5ODg3MTIzLC0zMzQ3OTk4ODIsMTA4MTA2Mjc0MywxMDYwNzAy
-Mzc1LDE4OTU0MzEyMjRdfQ==
+eyJoaXN0b3J5IjpbLTUwMTA0NDY5Niw0MTI3MDIyOTYsLTIzND
+gwNDcwNSwtMjA1Njc1NDE2MSwtMTQ1NjEyNDkxMywtOTEzNDM1
+MTExLDEzOTIxMTI2MzEsLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMT
+MzOTg4NzEyMywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcw
+MjM3NSwxODk1NDMxMjI0XX0=
 -->
