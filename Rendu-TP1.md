@@ -45,7 +45,10 @@ La carte enp0s3 (La nat) est en DHCP
     default via 10.0.2.2 dev enp0s3 proto dhcp metric 100
     10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
     192.168.18.0/24 dev enp0s10 proto kernel scope link src 192.168.18.55 metric 101
+    
+`10.0.2.2`, cette route est celle de la carte **NAT**, elle est utilisée pour une connexion **externe**, la passerelle de cette route est à l'IP 10.0.2.2 et cette IP est portée par 10.0.2.15.
 
+`192.168.2.0`, cette route est celle du **Host Only**, elle est utilisée pour une connexion **local**, la passerelle de cette route est à l'IP 192.168.18.55 et cette IP est portée par 192.168.2.3.
 
 ### Récupérer **la liste des ports en écoute** (_listening_) sur la machine (TCP et UDP)
 
@@ -150,9 +153,9 @@ Les ports filtrés sont : 9090, 546, 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyNzAyMjk2LC0yMzQ4MDQ3MDUsLTIwNT
-Y3NTQxNjEsLTE0NTYxMjQ5MTMsLTkxMzQzNTExMSwxMzkyMTEy
-NjMxLC0xNTU0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLT
-MzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQz
-MTIyNF19
+eyJoaXN0b3J5IjpbLTUzMDY2NDAzMSw0MTI3MDIyOTYsLTIzND
+gwNDcwNSwtMjA1Njc1NDE2MSwtMTQ1NjEyNDkxMywtOTEzNDM1
+MTExLDEzOTIxMTI2MzEsLTE1NTQ4ODU1NCw4MTMwNDAxMzUsMT
+MzOTg4NzEyMywtMzM0Nzk5ODgyLDEwODEwNjI3NDMsMTA2MDcw
+MjM3NSwxODk1NDMxMjI0XX0=
 -->
