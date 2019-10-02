@@ -46,7 +46,6 @@ La carte enp0s3 (La nat) est en DHCP
     10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
     192.168.18.0/24 dev enp0s10 proto kernel scope link src 192.168.18.55 metric 101
 
-La première route est celle de la carte "ens18", elle est utilisé pour une connexion local, la passerelle de cette route est à l'IP est "192.168.0.39"
 
 ### Récupérer **la liste des ports en écoute** (_listening_) sur la machine (TCP et UDP)
 
@@ -151,8 +150,9 @@ Les ports filtrés sont : 9090, 546, 22
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDgwNDcwNSwtMjA1Njc1NDE2MSwtMT
-Q1NjEyNDkxMywtOTEzNDM1MTExLDEzOTIxMTI2MzEsLTE1NTQ4
-ODU1NCw4MTMwNDAxMzUsMTMzOTg4NzEyMywtMzM0Nzk5ODgyLD
-EwODEwNjI3NDMsMTA2MDcwMjM3NSwxODk1NDMxMjI0XX0=
+eyJoaXN0b3J5IjpbNDEyNzAyMjk2LC0yMzQ4MDQ3MDUsLTIwNT
+Y3NTQxNjEsLTE0NTYxMjQ5MTMsLTkxMzQzNTExMSwxMzkyMTEy
+NjMxLC0xNTU0ODg1NTQsODEzMDQwMTM1LDEzMzk4ODcxMjMsLT
+MzNDc5OTg4MiwxMDgxMDYyNzQzLDEwNjA3MDIzNzUsMTg5NTQz
+MTIyNF19
 -->
