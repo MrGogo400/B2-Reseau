@@ -119,11 +119,48 @@ Les ports filtrés sont : 9090, 546, 22
 
 ### Modifier la configuration de la carte réseau privée
 
+    TYPE=Ethernet
+    PROXY_METHOD=none
+    BROWSER_ONLY=no
+    BOOTPROTO=static
+    DEFROUTE=yes
+    IPV4_FAILURE_FATAL=no
+    IPV6INIT=yes
+    IPV6_AUTOCONF=yes
+    IPV6_DEFROUTE=yes
+    IPV6_FAILURE_FATAL=no
+    IPV6_ADDR_GEN_MODE=stable-privacy
+    NAME=enp0s10
+    UUID=c21f8a63-4f62-409f-86bf-e58c07d2fd57
+    DEVICE=enp0s10
+    ONBOOT=yes
+    IPADDR=192.168.18.55
+    NETMASK=255.255.255.0
 
 
+
+### Ajouter une nouvelle carte réseau dans un DEUXIÈME réseau privé UNIQUEMENT privé
+
+    TYPE=Ethernet
+    PROXY_METHOD=none
+    BROWSER_ONLY=no
+    BOOTPROTO=static
+    DEFROUTE=yes
+    IPV4_FAILURE_FATAL=no
+    IPV6INIT=yes
+    IPV6_AUTOCONF=yes
+    IPV6_DEFROUTE=yes
+    IPV6_FAILURE_FATAL=no
+    IPV6_ADDR_GEN_MODE=stable-privacy
+    NAME=enp0s9
+    UUID=aeb1d13f-0b8d-4e89-9f1a-5732b21b60d4
+    DEVICE=enp0s9
+    ONBOOT=yes
+    IPADDR=192.168.17.55
+    NETMASK=255.255.255.0
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDM5NDQ1Myw4NDM5NzQ0MzksNzcxMj
+eyJoaXN0b3J5IjpbLTEwNTQzNzg1Miw4NDM5NzQ0MzksNzcxMj
 E4MzcyLDQxMjcwMjI5NiwtMjM0ODA0NzA1LC0yMDU2NzU0MTYx
 LC0xNDU2MTI0OTEzLC05MTM0MzUxMTEsMTM5MjExMjYzMSwtMT
 U1NDg4NTU0LDgxMzA0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4
