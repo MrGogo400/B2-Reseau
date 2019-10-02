@@ -33,7 +33,11 @@
 
 ### Déterminer si les cartes réseaux ont récupéré une **IP en DHCP** 
 
-Non les cartes réseaux n'ont pas récupéré une IP en DHCP
+La carte en (La nat) est en DHCP
+
+    DHCP4.OPTION[1]:                        domain_name_servers = 89.2.0.1 89.2.0.2
+    DHCP4.OPTION[2]:                        expiry = 1570117787
+    DHCP4.OPTION[3]:                        ip_address = 10.0.2.15
 
 ### Afficher la **table de routage** de la machine et sa **table ARP**
 
@@ -146,9 +150,10 @@ Les ports filtrés sont : 9090, 546, 22
 ## II. Edit configuration
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY3NTQxNjEsLTE0NTYxMjQ5MTMsLT
-kxMzQzNTExMSwxMzkyMTEyNjMxLC0xNTU0ODg1NTQsODEzMDQw
-MTM1LDEzMzk4ODcxMjMsLTMzNDc5OTg4MiwxMDgxMDYyNzQzLD
-EwNjA3MDIzNzUsMTg5NTQzMTIyNF19
+eyJoaXN0b3J5IjpbODA0NjM4Njk2LC0yMDU2NzU0MTYxLC0xND
+U2MTI0OTEzLC05MTM0MzUxMTEsMTM5MjExMjYzMSwtMTU1NDg4
+NTU0LDgxMzA0MDEzNSwxMzM5ODg3MTIzLC0zMzQ3OTk4ODIsMT
+A4MTA2Mjc0MywxMDYwNzAyMzc1LDE4OTU0MzEyMjRdfQ==
 -->
