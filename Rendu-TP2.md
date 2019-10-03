@@ -105,7 +105,30 @@ Chaque ligne montre l'adresse MAC connecter sur le port dans quel VLAN et de que
 ### Déterminer les informations STP
 
 
+
+    IOU1#show spanning-tree summary
+    Switch is in rapid-pvst mode
+    Root bridge for: VLAN0001
+    Extended system ID                      is enabled
+    Portfast Default                        is disabled
+    Portfast Edge BPDU Guard Default        is disabled
+    Portfast Edge BPDU Filter Default       is disabled
+    Loopguard Default                       is disabled
+    PVST Simulation Default                 is enabled but inactive in rapid-pvst mode
+    Bridge Assurance                        is enabled
+    EtherChannel misconfig guard            is enabled
+    Configured Pathcost method used is short
+    UplinkFast                              is disabled
+    BackboneFast                            is disabled
+    
+    Name                   Blocking Listening Learning Forwarding STP Active
+    ---------------------- -------- --------- -------- ---------- ----------
+    VLAN0001                     0         0        0         16         16
+    ---------------------- -------- --------- -------- ---------- ----------
+    1 vlan                       0         0        0         16         16
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTI3MDgwOCwxNDY3MTQ2OTAsLTE4OD
-I4NjM1NjIsNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
+eyJoaXN0b3J5IjpbLTY3OTkwNTI1MiwtNzExMjcwODA4LDE0Nj
+cxNDY5MCwtMTg4Mjg2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcy
+N119
 -->
