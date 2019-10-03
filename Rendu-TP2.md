@@ -173,8 +173,10 @@ IOU3 est en Blocking
     ---------------------- -------- --------- -------- ---------- ----------
     1 vlan                       1         0        0         15         16
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MTc1MjkwLC03MTEyNzA4MDgsMTQ2Nz
-E0NjkwLC0xODgyODYzNTYyLDUwMDEzMTcyOSwxNjc3MDc4NzI3
-XX0=
+eyJoaXN0b3J5IjpbLTQyNzAxMzkzMCwtNzExMjcwODA4LDE0Nj
+cxNDY5MCwtMTg4Mjg2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcy
+N119
 -->
