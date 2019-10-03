@@ -82,8 +82,25 @@ Car l'IP leur sert à être identifiable sur le réseau et ainsi pouvoir communi
     84 bytes from 10.2.2.3 icmp_seq=1 ttl=64 time=0.584 ms
     84 bytes from 10.2.2.3 icmp_seq=2 ttl=64 time=0.614 ms
 
+### Analyser la table MAC d'un switch
+
+    IOU1#show mac address-table
+              Mac Address Table
+    -------------------------------------------
+    
+    Vlan    Mac Address       Type        Ports
+    ----    -----------       --------    -----
+       1    0050.7966.6800    DYNAMIC     Et0/2
+       1    0050.7966.6801    DYNAMIC     Et0/0
+       1    0050.7966.6802    DYNAMIC     Et0/1
+       1    aabb.cc00.0210    DYNAMIC     Et0/1
+       1    aabb.cc00.0310    DYNAMIC     Et0/2
+       1    aabb.cc00.0320    DYNAMIC     Et0/1
+    Total Mac Addresses for this criterion: 6
+
+Chaque ligne montre adresses 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODg0Mjc2OSwxNDY3MTQ2OTAsLTE4OD
+eyJoaXN0b3J5IjpbLTc1ODM3ODMxNiwxNDY3MTQ2OTAsLTE4OD
 I4NjM1NjIsNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
 -->
