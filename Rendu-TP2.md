@@ -62,8 +62,10 @@ On mets en place la topologie demander, on change les ip des PC grâce a la comm
 
 Parce que il sert uniquement d'interface entre les 2 PC.
 
-### Expliquer pourquoi le switch n'a pas besoin d'IP
+### Expliquer pourquoi les machines ont besoin d'une IP pour pouvoir se `ping`
+
+Car l'IP leur sert a être identifiable sur le réseau et ainsi pouvoir communique
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzE5NDgzOCwtMTg4Mjg2MzU2Miw1MD
-AxMzE3MjksMTY3NzA3ODcyN119
+eyJoaXN0b3J5IjpbNTUyODc4Nzc4LC0xODgyODYzNTYyLDUwMD
+EzMTcyOSwxNjc3MDc4NzI3XX0=
 -->
