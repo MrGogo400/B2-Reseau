@@ -54,7 +54,10 @@ On voit bien la corrélation entre les tables ARP ou il y'a connexion entre les 
 
 
 ### Récapituler toutes les étapes (dans le compte-rendu, à l'écrit) quand `PC1` exécute `ping PC2` pour la première fois
+
+Après avoir fait les prérequis,
+On mets en place la topologie demander, on change les ip des PC grâce a la commande ip  xx.xx.xx.xx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzEzMDMxNSwtMTg4Mjg2MzU2Miw1MD
-AxMzE3MjksMTY3NzA3ODcyN119
+eyJoaXN0b3J5IjpbLTEwNTA3MjAwNTIsLTE4ODI4NjM1NjIsNT
+AwMTMxNzI5LDE2NzcwNzg3MjddfQ==
 -->
