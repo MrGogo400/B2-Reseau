@@ -31,6 +31,12 @@ Sur WireShark :
     14	13.918992	10.2.1.2	10.2.1.1	ICMP	98	Echo (ping) reply    id=0xd2c3, seq=1/256, ttl=64 (request in 13)
 
 On voit que le protocole utilisé est ICMP.
+
+### Analyser les échanges ARP
+
+    13	13.918831	10.2.1.1	10.2.1.2	ICMP	98	Echo (ping) request  id=0xd2c3, seq=1/256, ttl=64 (reply in 14)
+    14	13.918992	10.2.1.2	10.2.1.1	ICMP	98	Echo (ping) reply    id=0xd2c3, seq=1/256, ttl=64 (request in 13)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNDE3NCwxNjc3MDc4NzI3XX0=
+eyJoaXN0b3J5IjpbNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
 -->
