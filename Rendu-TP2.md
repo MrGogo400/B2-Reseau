@@ -50,8 +50,10 @@ Sur PC2 :
     00:50:79:66:68:00  10.2.1.1 expires in 48 seconds
 
 
+On voit bien la corrélation entre les tables ARP ou il y'a connexion entre
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDc5NzEyNiw1MDAxMzE3MjksMTY3Nz
-A3ODcyN119
+eyJoaXN0b3J5IjpbLTIxMTIwMjA0NjUsNTAwMTMxNzI5LDE2Nz
+cwNzg3MjddfQ==
 -->
