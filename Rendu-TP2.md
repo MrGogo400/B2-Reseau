@@ -73,7 +73,17 @@ Car l'IP leur sert à être identifiable sur le réseau et ainsi pouvoir communi
 ![enter image description here](https://i.imgur.com/OtuPz62.png)
 
 ### Faire communiquer les trois PCs
+
+    PC1> ping 10.2.2.2
+    84 bytes from 10.2.2.2 icmp_seq=1 ttl=64 time=0.283 ms
+    84 bytes from 10.2.2.2 icmp_seq=2 ttl=64 time=0.444 ms
+    
+    PC1> ping 10.2.2.3
+    84 bytes from 10.2.2.3 icmp_seq=1 ttl=64 time=0.584 ms
+    84 bytes from 10.2.2.3 icmp_seq=2 ttl=64 time=0.614 ms
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDM5MTQ3NSwxNDY3MTQ2OTAsLTE4OD
+eyJoaXN0b3J5IjpbLTkzODg0Mjc2OSwxNDY3MTQ2OTAsLTE4OD
 I4NjM1NjIsNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
 -->
