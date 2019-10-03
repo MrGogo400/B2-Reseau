@@ -53,7 +53,8 @@ Sur PC2 :
 On voit bien la corrélation entre les tables ARP ou il y'a connexion entre les 2 PC
 
 
+### Récapituler toutes les étapes (dans le compte-rendu, à l'écrit) quand `PC1` exécute `ping PC2` pour la première fois
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI4NjM1NjIsNTAwMTMxNzI5LDE2Nz
-cwNzg3MjddfQ==
+eyJoaXN0b3J5IjpbMTQ5MzEzMDMxNSwtMTg4Mjg2MzU2Miw1MD
+AxMzE3MjksMTY3NzA3ODcyN119
 -->
