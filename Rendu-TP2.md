@@ -37,6 +37,21 @@ On voit que le protocole utilisé est ICMP.
     13	13.918831	10.2.1.1	10.2.1.2	ICMP	98	Echo (ping) request  id=0xd2c3, seq=1/256, ttl=64 (reply in 14)
     14	13.918992	10.2.1.2	10.2.1.1	ICMP	98	Echo (ping) reply    id=0xd2c3, seq=1/256, ttl=64 (request in 13)
 
+Sur PC1 : 
+
+    PC1> show arp
+    
+    00:50:79:66:68:01  10.2.1.2 expires in 117 seconds
+
+Sur PC2 : 
+
+    PC2> show arp
+    
+    00:50:79:66:68:00  10.2.1.1 expires in 48 seconds
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
+eyJoaXN0b3J5IjpbMTA4NDc5NzEyNiw1MDAxMzE3MjksMTY3Nz
+A3ODcyN119
 -->
