@@ -68,8 +68,12 @@ Car l'IP leur sert à être identifiable sur le réseau et ainsi pouvoir communi
 
 ## II. More switches
 
+### Mettre en place la topologie ci-dessus
 
+![enter image description here](https://i.imgur.com/OtuPz62.png)
+
+### Faire communiquer les trois PCs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzE0NjkwLC0xODgyODYzNTYyLDUwMD
-EzMTcyOSwxNjc3MDc4NzI3XX0=
+eyJoaXN0b3J5IjpbMTA5NDM5MTQ3NSwxNDY3MTQ2OTAsLTE4OD
+I4NjM1NjIsNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
 -->
