@@ -98,9 +98,9 @@ Car l'IP leur sert à être identifiable sur le réseau et ainsi pouvoir communi
        1    aabb.cc00.0320    DYNAMIC     Et0/1
     Total Mac Addresses for this criterion: 6
 
-Chaque ligne montre adresses 
+Chaque ligne montre l'adresse MAC connecter sur le port dans quel VLAN et de quel type
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODM3ODMxNiwxNDY3MTQ2OTAsLTE4OD
-I4NjM1NjIsNTAwMTMxNzI5LDE2NzcwNzg3MjddfQ==
+eyJoaXN0b3J5IjpbNzIzNzc0MzkxLDE0NjcxNDY5MCwtMTg4Mj
+g2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcyN119
 -->
