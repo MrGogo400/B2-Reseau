@@ -104,7 +104,7 @@ Chaque ligne montre l'adresse MAC connecter sur le port dans quel VLAN et de que
 
 ### Déterminer les informations STP
 
-
+IOU1 est en Forwarding
 
     IOU1#show spanning-tree summary
     Switch is in rapid-pvst mode
@@ -127,8 +127,54 @@ Chaque ligne montre l'adresse MAC connecter sur le port dans quel VLAN et de que
     ---------------------- -------- --------- -------- ---------- ----------
     1 vlan                       0         0        0         16         16
 
+IOU2 est en Forwarding
+
+    IOU2#show spanning-tree summary
+    Switch is in rapid-pvst mode
+    Root bridge for: none
+    Extended system ID                      is enabled
+    Portfast Default                        is disabled
+    Portfast Edge BPDU Guard Default        is disabled
+    Portfast Edge BPDU Filter Default       is disabled
+    Loopguard Default                       is disabled
+    PVST Simulation Default                 is enabled but inactive in rapid-pvst mode
+    Bridge Assurance                        is enabled
+    EtherChannel misconfig guard            is enabled
+    Configured Pathcost method used is short
+    UplinkFast                              is disabled
+    BackboneFast                            is disabled
+    
+    Name                   Blocking Listening Learning Forwarding STP Active
+    ---------------------- -------- --------- -------- ---------- ----------
+    VLAN0001                     0         0        0         16         16
+    ---------------------- -------- --------- -------- ---------- ----------
+    1 vlan 
+
+IOU3 est en Blocking 
+
+    IOU3#show spanning-tree summary
+    Switch is in rapid-pvst mode
+    Root bridge for: none
+    Extended system ID                      is enabled
+    Portfast Default                        is disabled
+    Portfast Edge BPDU Guard Default        is disabled
+    Portfast Edge BPDU Filter Default       is disabled
+    Loopguard Default                       is disabled
+    PVST Simulation Default                 is enabled but inactive in rapid-pvst mode
+    Bridge Assurance                        is enabled
+    EtherChannel misconfig guard            is enabled
+    Configured Pathcost method used is short
+    UplinkFast                              is disabled
+    BackboneFast                            is disabled
+    
+    Name                   Blocking Listening Learning Forwarding STP Active
+    ---------------------- -------- --------- -------- ---------- ----------
+    VLAN0001                     1         0        0         15         16
+    ---------------------- -------- --------- -------- ---------- ----------
+    1 vlan                       1         0        0         15         16
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTkwNTI1MiwtNzExMjcwODA4LDE0Nj
-cxNDY5MCwtMTg4Mjg2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcy
-N119
+eyJoaXN0b3J5IjpbNjk3MTc1MjkwLC03MTEyNzA4MDgsMTQ2Nz
+E0NjkwLC0xODgyODYzNTYyLDUwMDEzMTcyOSwxNjc3MDc4NzI3
+XX0=
 -->
