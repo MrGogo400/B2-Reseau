@@ -64,8 +64,12 @@ Parce que il sert uniquement d'interface entre les 2 PC.
 
 ### Expliquer pourquoi les machines ont besoin d'une IP pour pouvoir se `ping`
 
-Car l'IP leur sert a être identifiable sur le réseau et ainsi pouvoir communique
+Car l'IP leur sert à être identifiable sur le réseau et ainsi pouvoir communiquer avec les différents objets  connectés. 
+
+## II. More switches
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyODc4Nzc4LC0xODgyODYzNTYyLDUwMD
+eyJoaXN0b3J5IjpbMTQ2NzE0NjkwLC0xODgyODYzNTYyLDUwMD
 EzMTcyOSwxNjc3MDc4NzI3XX0=
 -->
