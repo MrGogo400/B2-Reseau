@@ -100,7 +100,9 @@ Car l'IP leur sert à être identifiable sur le réseau et ainsi pouvoir communi
 
 Chaque ligne montre l'adresse MAC connecter sur le port dans quel VLAN et de quel type
 
+### Mise en évidence du Spanning Tree Protoco
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNzc0MzkxLDE0NjcxNDY5MCwtMTg4Mj
-g2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcyN119
+eyJoaXN0b3J5IjpbLTE2MTQ3NzI2NTksMTQ2NzE0NjkwLC0xOD
+gyODYzNTYyLDUwMDEzMTcyOSwxNjc3MDc4NzI3XX0=
 -->
