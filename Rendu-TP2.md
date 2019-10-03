@@ -56,8 +56,14 @@ On voit bien la corrélation entre les tables ARP ou il y'a connexion entre les 
 ### Récapituler toutes les étapes (dans le compte-rendu, à l'écrit) quand `PC1` exécute `ping PC2` pour la première fois
 
 Après avoir fait les prérequis,
-On mets en place la topologie demander, on change les ip des PC grâce a la commande `ip  xx.xx.xx.xx/CIDR` , on peux désormais ping les pc entre eux et voir les table ARP que ce soit sur les pc avec la commande `show arp` ou direce
+On mets en place la topologie demander, on change les ip des PC grâce a la commande `ip  xx.xx.xx.xx/CIDR` , on peux désormais ping les pc entre eux et voir les table ARP que ce soit sur les pc avec la commande `show arp` ou directement sur WireShark.
+
+### Expliquer pourquoi le switch n'a pas besoin d'IP
+
+Parce que il sert uniquement d'interface entre les 2 PC.
+
+### Expliquer pourquoi le switch n'a pas besoin d'IP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTE0OTIwMSwtMTg4Mjg2MzU2Miw1MD
+eyJoaXN0b3J5IjpbMTk1NzE5NDgzOCwtMTg4Mjg2MzU2Miw1MD
 AxMzE3MjksMTY3NzA3ODcyN119
 -->
