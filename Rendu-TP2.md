@@ -104,33 +104,30 @@ Chaque ligne montre l'adresse MAC connecter sur le port dans quel VLAN et de que
 
 ### Déterminer les informations STP
 
-IOU1 est en Forwardin, c'est aussi 
+IOU1 est en Forwarding
 
-        Switch>show spanning-tree
+    IOU1#show spanning-tree summary
+    Switch is in rapid-pvst mode
+    Root bridge for: VLAN0001
+    Extended system ID                      is enabled
+    Portfast Default                        is disabled
+    Portfast Edge BPDU Guard Default        is disabled
+    Portfast Edge BPDU Filter Default       is disabled
+    Loopguard Default                       is disabled
+    PVST Simulation Default                 is enabled but inactive in rapid-pvst mode
+    Bridge Assurance                        is enabled
+    EtherChannel misconfig guard            is enabled
+    Configured Pathcost method used is short
+    UplinkFast                              is disabled
+    BackboneFast                            is disabled
     
-    VLAN0001
-      Spanning tree enabled protocol rstp
-      Root ID    Priority    32769
-                 Address     aabb.cc00.0100
-                 This bridge is the root
-                 Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
-    
-      Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
-                 Address     aabb.cc00.0100
-                 Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
-                 Aging Time  300 sec
-    
-    Interface           Role Sts Cost      Prio.Nbr Type
-    ------------------- ---- --- --------- -------- --------------------------------
-    Et0/0               Desg FWD 100       128.1    Shr
-    Et0/1               Desg FWD 100       128.2    Shr
-    Et0/2               Desg FWD 100       128.3    Shr
-    Et0/3               Desg FWD 100       128.4    Shr
-    Et1/0               Desg FWD 100       128.5    Shr
-    Et1/1               Desg FWD 100       128.6    Shr
-    Et1/2               Desg FWD 100       128.7    Shr
-    Et1/3               Desg FWD 100       128.8    Shr
+    Name                   Blocking Listening Learning Forwarding STP Active
+    ---------------------- -------- --------- -------- ---------- ----------
+    VLAN0001                     0         0        0         16         16
+    ---------------------- -------- --------- -------- ---------- ----------
+    1 vlan                       0         0        0         16         16
 
+On voit aussi graçe a
 
 IOU2 est en Forwarding
 
@@ -181,7 +178,7 @@ IOU3 est en Blocking
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzg2NDc1NiwtNDI3MDEzOTMwLC03MT
+eyJoaXN0b3J5IjpbMTU5MDQ4ODgxNywtNDI3MDEzOTMwLC03MT
 EyNzA4MDgsMTQ2NzE0NjkwLC0xODgyODYzNTYyLDUwMDEzMTcy
 OSwxNjc3MDc4NzI3XX0=
 -->
