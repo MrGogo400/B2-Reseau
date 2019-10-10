@@ -204,11 +204,15 @@ IOU3 est en Blocking
 
 ### Confirmer les informations STP
 
-Effectuer un `ping` d'une machine à une autre
+Effectuer un `ping` d'une machine à une autre et vérifier que les trames passent bien par le chemin attendu (Wireshark)
+
+    19	23.101799	10.2.2.1	10.2.2.2	ICMP	98	Echo (ping) request  id=0x17f7, seq=1/256, ttl=64 (reply in 20)
+    20	23.102392	10.2.2.2	10.2.2.1	ICMP	98	Echo (ping) reply    id=0x17f7, seq=1/256, ttl=64 (request in 19)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzI0NTk3NjIsNTk0MTY5MjQ1LDE4NT
-kwOTc1OTgsLTQyNzAxMzkzMCwtNzExMjcwODA4LDE0NjcxNDY5
-MCwtMTg4Mjg2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcyN119
+eyJoaXN0b3J5IjpbLTM4MTg3MTcwMCw1OTQxNjkyNDUsMTg1OT
+A5NzU5OCwtNDI3MDEzOTMwLC03MTEyNzA4MDgsMTQ2NzE0Njkw
+LC0xODgyODYzNTYyLDUwMDEzMTcyOSwxNjc3MDc4NzI3XX0=
 -->
