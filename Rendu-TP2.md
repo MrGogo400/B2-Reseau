@@ -9,7 +9,7 @@
 
 ### Faire communiquer les deux PCs :
 
-PC1 vers PC1 :
+PC1 vers PC2 :
 
     PC1> ping 10.2.1.2
     84 bytes from 10.2.1.2 icmp_seq=1 ttl=64 time=0.202 ms
@@ -204,7 +204,7 @@ IOU3 est en Blocking
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTA5NzU5OCwtNDI3MDEzOTMwLC03MT
-EyNzA4MDgsMTQ2NzE0NjkwLC0xODgyODYzNTYyLDUwMDEzMTcy
-OSwxNjc3MDc4NzI3XX0=
+eyJoaXN0b3J5IjpbNTk0MTY5MjQ1LDE4NTkwOTc1OTgsLTQyNz
+AxMzkzMCwtNzExMjcwODA4LDE0NjcxNDY5MCwtMTg4Mjg2MzU2
+Miw1MDAxMzE3MjksMTY3NzA3ODcyN119
 -->
