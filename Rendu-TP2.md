@@ -202,9 +202,13 @@ IOU3 est en Blocking
     1 vlan                       1         0        0         15         16
 
 
+### Confirmer les informations STP
+
+Effectuer un `ping` d'une machine à une autre
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MTY5MjQ1LDE4NTkwOTc1OTgsLTQyNz
-AxMzkzMCwtNzExMjcwODA4LDE0NjcxNDY5MCwtMTg4Mjg2MzU2
-Miw1MDAxMzE3MjksMTY3NzA3ODcyN119
+eyJoaXN0b3J5IjpbLTEyMzI0NTk3NjIsNTk0MTY5MjQ1LDE4NT
+kwOTc1OTgsLTQyNzAxMzkzMCwtNzExMjcwODA4LDE0NjcxNDY5
+MCwtMTg4Mjg2MzU2Miw1MDAxMzE3MjksMTY3NzA3ODcyN119
 -->
