@@ -210,9 +210,17 @@ Effectuer un `ping` d'une machine à une autre et vérifier que les trames passe
     20	23.102392	10.2.2.2	10.2.2.1	ICMP	98	Echo (ping) reply    id=0x17f7, seq=1/256, ttl=64 (request in 19)
 
 
+## Reconfigurer STP
+
+### Changer la priorité d'un switch qui n'est pas le root bridge
+
+    IOU2(config)#spanning-tree vlan 1 priority 32768
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTg3MTcwMCw1OTQxNjkyNDUsMTg1OT
-A5NzU5OCwtNDI3MDEzOTMwLC03MTEyNzA4MDgsMTQ2NzE0Njkw
-LC0xODgyODYzNTYyLDUwMDEzMTcyOSwxNjc3MDc4NzI3XX0=
+eyJoaXN0b3J5IjpbMzQ0Mzc3NTAsLTM4MTg3MTcwMCw1OTQxNj
+kyNDUsMTg1OTA5NzU5OCwtNDI3MDEzOTMwLC03MTEyNzA4MDgs
+MTQ2NzE0NjkwLC0xODgyODYzNTYyLDUwMDEzMTcyOSwxNjc3MD
+c4NzI3XX0=
 -->
