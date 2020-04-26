@@ -109,7 +109,7 @@
      switchport mode access
     !
 
-Après j'ai les mêmes fichiers de config que tu à donner donc bon....
+### Après j'ai les mêmes fichiers de config que tu à donner donc bon...
 
 ## TP : Métrologie Réseau : SNMP, monitoring, gestion de logs
 
